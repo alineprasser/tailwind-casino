@@ -1,5 +1,19 @@
 <script lang="ts">
-  import {
+import {
+  Home,
+  DollarSign,
+  ArrowDown,
+  GiftIcon,
+  UserIcon,
+  Shovel,
+  Component,
+  Share,
+  Instagram,
+} from "lucide-vue-next";
+
+export default {
+  name: "Sidebar",
+  components: {
     Home,
     DollarSign,
     ArrowDown,
@@ -7,29 +21,15 @@
     UserIcon,
     Shovel,
     Component,
-    Share,
     Instagram,
-  } from "lucide-vue-next";
-
-  export default {
-    name: "Sidebar",
-    components: {
-      Home,
-      DollarSign,
-      ArrowDown,
-      GiftIcon,
-      UserIcon,
-      Shovel,
-      Component,
-      Instagram,
-      Share,
-    },
-  };
+    Share,
+  },
+};
 </script>
 
 <template>
   <div
-    class="flex flex-col min-h-screen bg-zinc-900 text-white w-60 py-20 border-r sticky border-purple-950"
+    class="flex flex-col bg-zinc-900 text-white w-60 py-20 border-r sticky border-purple-950"
   >
     <div class="flex w-full border-b-2 border-purple-950">
       <button class="p-2 font-bold w-full border-b-2 border-purple-800">
@@ -65,32 +65,32 @@
     <div class="px-6 my-4">
       <ul class="flex flex-col gap-2">
         <li
-          class="border border-purple-800 flex items-center gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-150 cursor-pointer"
+          class="border border-purple-800 flex items-center transition-all gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-500 cursor-pointer"
         >
           <div class="w-6 h-6 bg-white/50 rounded-full"></div>
           <p>Grau</p>
           <sup class="pl-3 text-zinc-400 text-xs font-semibold">New!</sup>
         </li>
         <li
-          class="border border-purple-800 flex items-center gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-150 cursor-pointer"
+          class="border border-purple-800 flex items-center transition-all gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-500 cursor-pointer"
         >
           <div class="w-6 h-6 bg-white/50 rounded-full"></div>
           <p>Gold Crash</p>
         </li>
         <li
-          class="border border-purple-800 flex items-center gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-150 cursor-pointer"
+          class="border border-purple-800 flex items-center transition-all gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-500 cursor-pointer"
         >
           <div class="w-6 h-6 bg-white/50 rounded-full"></div>
           <p>Double</p>
         </li>
         <li
-          class="border border-purple-800 flex items-center gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-150 cursor-pointer"
+          class="border border-purple-800 flex items-center transition-all gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-500 cursor-pointer"
         >
           <div class="w-6 h-6 bg-white/50 rounded-full"></div>
           <p>Dice</p>
         </li>
         <li
-          class="border border-purple-800 flex items-center gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-150 cursor-pointer"
+          class="border border-purple-800 flex items-center transition-all gap-3 bg-gradient-to-br from-purple-900 px-3 py-3 font-semibold rounded-sm hover:from-purple-700 hover:to-zinc-950 ease-in-out duration-500 cursor-pointer"
         >
           <div class="w-6 h-6 bg-white/50 rounded-full"></div>
           <p>Mines</p>
