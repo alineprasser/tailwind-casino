@@ -2,21 +2,24 @@
 import MainPage from "./components/MainPage.vue";
 import Navbar from "./components/Navbar.vue";
 import Sidebar from "./components/Sidebar.vue";
+import Foot from "./components/Foot.vue";
 </script>
 
 <template>
-  <div class="flex flex-col">
+  <div class="">
     <header>
       <Navbar />
     </header>
-    <main class="flex justify-between">
-      <aside class="relative">
-        <Sidebar class="sticky top-0 h-screen" />
+    <div class="flex">
+      <aside class="sticky top-0 h-full">
+        <Sidebar class="" />
       </aside>
-      <article class="w-full">
-        <MainPage />
-      </article>
-    </main>
-    <footer></footer>
+      <main class="w-full">
+        <article>
+          <MainPage />
+        </article>
+      </main>
+    </div>
+    <footer><Foot /></footer>
   </div>
 </template>
