@@ -1,11 +1,11 @@
 <script lang="ts">
-  export default {
-    name: "Navbar",
-  };
+export default {
+  name: "Navbar",
+};
 </script>
 
 <template>
-  <div
+  <header
     class="w-full bg-zinc-900 text-white px-6 py-3 flex justify-between items-center border-b border-purple-600 fixed z-10 shadow-md"
   >
     <div>logo</div>
@@ -21,5 +21,5 @@
         Cadastrar
       </button>
     </div>
-  </div>
+  </header>
 </template>

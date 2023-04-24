@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-zinc-900 text-white border-t border-purple-600">
+  <footer class="bg-zinc-900 text-white border-t border-purple-600">
     <div
       class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
     >
@@ -85,5 +85,5 @@ export default {
         </a>
       </span>
     </div>
-  </div>
+  </footer>
 </template>
