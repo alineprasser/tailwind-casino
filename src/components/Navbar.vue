@@ -16,7 +16,7 @@ export default {
         Entrar
       </button>
       <button
-        class="px-6 py-3 rounded-lg font-semibold border bg-purple-600 border-purple-800 hover:bg-purple-800 ease-in-out duration-300"
+        class="px-4 py-3 rounded-lg font-semibold border bg-purple-600 border-purple-800 hover:bg-purple-800 ease-in-out duration-300"
       >
         Cadastrar
       </button>

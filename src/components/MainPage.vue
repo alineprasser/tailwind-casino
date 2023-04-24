@@ -12,7 +12,9 @@ export default {
 </script>
 
 <template>
-  <div class="mt-28 mx-auto w-4/5 overflow-x-hidden mb-5">
+  <div
+    class="mt-28 mx-auto w-4/5 overflow-x-hidden mb-5 flex flex-col justify-center"
+  >
     <div class="grid lg:grid-cols-3 grid-cols-1 gap-2">
       <div
         class="w-full h-[280px] rounded-md bg-purple-300 hover:bg-purple-200 hover:shadow-md hover:shadow-zinc-400 transition-all ease-in-out duration-150 cursor-pointer"
@@ -25,7 +27,7 @@ export default {
       ></div>
     </div>
 
-    <div class="mt-4 flex gap-2">
+    <div class="mt-4 flex gap-2 overflow-x-auto">
       <Button>
         <Component :size="16" />
         <p>Originais</p>

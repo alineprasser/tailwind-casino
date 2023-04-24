@@ -29,7 +29,7 @@ export default {
 
 <template>
   <div
-    class="flex flex-col bg-zinc-900 text-white w-60 pt-20 pb-10 border-r sticky border-purple-950"
+    class="sm:flex sm:flex-col hidden bg-zinc-900 text-white w-60 pt-20 pb-10 border-r sticky border-purple-950"
   >
     <div class="flex w-full border-b-2 border-purple-950">
       <button class="p-2 font-bold w-full border-b-2 border-purple-800">
